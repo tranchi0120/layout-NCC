@@ -174,5 +174,10 @@ a {
     float: none;
   }
 }
+@media screen and (max-width: 320px) {
+  .logo-main {
+    width: 150px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

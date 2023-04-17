@@ -53,3 +53,11 @@
     }
   }
 }
+
+@media screen and (max-width: 320px) {
+  .logo {
+    &-main {
+      width: 150px;
+    }
+  }
+}
