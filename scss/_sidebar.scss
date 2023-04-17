@@ -1,0 +1,28 @@
+.sidebar {
+  width: 150px;
+  background-color: $bg-menu;
+  // height: 100vh;
+  font-family: $font;
+  // position: fixed;
+  // top: 0;
+  // left: 0;
+  // bottom: 0;
+  &-item {
+    border-bottom: 1px solid #5c5c5c;
+    height: 44px;
+    padding: 11px 0 11px 16px;
+  }
+  &-link {
+    color: #aaaaaa;
+    font-weight: 700;
+    line-height: 18.75px;
+  }
+
+  &-item:hover {
+    background: #5c5c5c;
+  }
+
+  &-link:hover {
+    color: #ffffff;
+  }
+}

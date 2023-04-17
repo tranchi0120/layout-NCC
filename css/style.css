@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+.wrapper {
+  max-width: 1918px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 130px;
+}
+
+.container {
+  max-width: 1678px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.sidebar {
+  width: 150px;
+  background-color: #191718;
+  font-family: "Roboto", sans-serif;
+}
+.sidebar-item {
+  border-bottom: 1px solid #5c5c5c;
+  height: 44px;
+  padding: 11px 0 11px 16px;
+}
+.sidebar-link {
+  color: #aaaaaa;
+  font-weight: 700;
+  line-height: 18.75px;
+}
+.sidebar-item:hover {
+  background: #5c5c5c;
+}
+.sidebar-link:hover {
+  color: #ffffff;
+}
+
+.logo-main {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.intro-main {
+  background: #efefef;
+  font-family: "Roboto", sans-serif;
+  padding: 38px 0;
+  margin-top: 30px;
+  color: #000000;
+}
+.intro-title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  text-align: center;
+}
+.intro-content {
+  font-size: 16px;
+  line-height: 18.75px;
+  font-weight: 400;
+  width: 972px;
+  text-align: center;
+  margin: 18px auto;
+}
+
+.post {
+  margin-top: 40px;
+  font-family: "Roboto", sans-serif;
+  padding-bottom: 142px;
+}
+.post-group {
+  display: flex;
+  justify-content: space-between;
+}
+.post-box-title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.13px;
+}
+.post-box-content {
+  max-width: 470px;
+  margin-top: 18px;
+}
+.post-box-img {
+  width: 128px;
+  height: 128px;
+  object-fit: cover;
+  float: left;
+  margin-right: 16px;
+}
+.post-box-text {
+  width: 475px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.75px;
+  color: #000000;
+}
+
+.footer {
+  border-top: 1px solid #dedede;
+}
+.footer-title {
+  font-weight: 400;
+  line-height: 18.75px;
+  font-size: 16px;
+  color: #3e3e3e;
+  font-family: "Roboto", sans-serif;
+}
+
+/*# sourceMappingURL=style.css.map */
