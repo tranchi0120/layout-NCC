@@ -1,0 +1,55 @@
+@media screen and (max-width: 1024px) {
+  .context {
+    margin-left: 180px;
+  }
+  .intro {
+    &-content {
+      width: 100%;
+      padding: 0 20px;
+    }
+  }
+  .post {
+    &-group {
+      flex-direction: column;
+    }
+    &-box {
+      &-content {
+        max-width: 100%;
+      }
+      &-text {
+        width: 100%;
+      }
+    }
+  }
+}
+@media screen and (max-width: 740px) {
+  .post {
+    &-box {
+      &-text {
+        width: 100%;
+        padding-right: 10px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .sidebar {
+    width: 120px;
+  }
+  .context {
+    margin-left: 140px;
+  }
+  .logo {
+    &-main {
+      width: 200px;
+    }
+  }
+  .post {
+    &-box {
+      &-img {
+        float: none;
+      }
+    }
+  }
+}

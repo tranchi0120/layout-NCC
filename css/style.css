@@ -1,16 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 .wrapper {
   max-width: 1918px;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   display: flex;
-  gap: 130px;
 }
 
 .container {
   max-width: 1678px;
   margin: 0 auto;
   padding: 0;
+}
+
+.context {
+  margin-left: 130px;
 }
 
 * {
@@ -37,6 +40,10 @@ a {
   width: 150px;
   background-color: #191718;
   font-family: "Roboto", sans-serif;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
 }
 .sidebar-item {
   border-bottom: 1px solid #5c5c5c;
@@ -90,6 +97,7 @@ a {
 .post-group {
   display: flex;
   justify-content: space-between;
+  gap: 50px;
 }
 .post-box-title {
   font-size: 24px;
@@ -117,6 +125,8 @@ a {
 
 .footer {
   border-top: 1px solid #dedede;
+  width: 100%;
+  height: 80px;
 }
 .footer-title {
   font-weight: 400;
@@ -124,6 +134,45 @@ a {
   font-size: 16px;
   color: #3e3e3e;
   font-family: "Roboto", sans-serif;
+}
+
+@media screen and (max-width: 1024px) {
+  .context {
+    margin-left: 180px;
+  }
+  .intro-content {
+    width: 100%;
+    padding: 0 20px;
+  }
+  .post-group {
+    flex-direction: column;
+  }
+  .post-box-content {
+    max-width: 100%;
+  }
+  .post-box-text {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 740px) {
+  .post-box-text {
+    width: 100%;
+    padding-right: 10px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .sidebar {
+    width: 120px;
+  }
+  .context {
+    margin-left: 140px;
+  }
+  .logo-main {
+    width: 200px;
+  }
+  .post-box-img {
+    float: none;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

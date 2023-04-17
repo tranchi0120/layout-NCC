@@ -2,19 +2,21 @@
 
 .wrapper {
   max-width: 1918px;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   display: flex;
-  gap: 130px;
+  // gap: 130px;
 }
 .container {
   max-width: 1678px;
   margin: 0 auto;
   padding: 0;
 }
-// .content {
-//   margin-left: 180px;
-// }
+
+.context {
+  margin-left: 130px;
+}
+
 $font: "Roboto", sans-serif;
 
 * {
