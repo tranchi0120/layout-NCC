@@ -62,9 +62,17 @@ a {
   color: #ffffff;
 }
 
+.logo {
+  margin-top: 20px;
+}
 .logo-main {
   text-align: center;
-  margin-top: 20px;
+  width: 310px;
+  height: 122px;
+  margin: 0 auto;
+}
+.logo-img {
+  width: 100%;
 }
 
 .intro-main {
@@ -92,7 +100,7 @@ a {
 .post {
   margin-top: 40px;
   font-family: "Roboto", sans-serif;
-  padding-bottom: 142px;
+  padding-bottom: 100px;
 }
 .post-group {
   display: flex;
@@ -127,6 +135,7 @@ a {
   border-top: 1px solid #dedede;
   width: 100%;
   height: 80px;
+  padding: 10px;
 }
 .footer-title {
   font-weight: 400;
@@ -136,6 +145,14 @@ a {
   font-family: "Roboto", sans-serif;
 }
 
+@media screen and (min-width: 1028px) {
+  .context {
+    margin-left: 200px;
+  }
+  .post-group {
+    flex-wrap: wrap;
+  }
+}
 @media screen and (max-width: 1024px) {
   .context {
     margin-left: 180px;
@@ -160,23 +177,13 @@ a {
     padding-right: 10px;
   }
 }
-@media screen and (max-width: 640px) {
-  .sidebar {
-    width: 120px;
-  }
-  .context {
-    margin-left: 140px;
-  }
+@media screen and (max-width: 450px) {
   .logo-main {
-    width: 200px;
+    width: 180px;
+    height: 100px;
   }
-  .post-box-img {
-    float: none;
-  }
-}
-@media screen and (max-width: 320px) {
-  .logo-main {
-    width: 150px;
+  .logo-img {
+    width: 100%;
   }
 }
 

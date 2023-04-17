@@ -1,3 +1,20 @@
+@media screen and (min-width: 1028px) {
+  .context {
+    margin-left: 200px;
+  }
+  .post {
+    &-group {
+      flex-wrap: wrap;
+    }
+  }
+  // .intro {
+  //   &-content {
+  //     width: 100%;
+  //     padding: 0 20px;
+  //   }
+  // }
+}
+
 @media screen and (max-width: 1024px) {
   .context {
     margin-left: 180px;
@@ -31,33 +48,21 @@
       }
     }
   }
-}
-
-@media screen and (max-width: 640px) {
-  .sidebar {
-    width: 120px;
-  }
-  .context {
-    margin-left: 140px;
-  }
   .logo {
     &-main {
-      width: 200px;
-    }
-  }
-  .post {
-    &-box {
-      &-img {
-        float: none;
-      }
+      // width: 200px;
     }
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 450px) {
   .logo {
     &-main {
-      width: 150px;
+      width: 180px;
+      height: 100px;
+    }
+    &-img {
+      width: 100%;
     }
   }
 }
